@@ -4,3 +4,10 @@ import App from "./components/App";
 
 
 
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  rootElement
+);
